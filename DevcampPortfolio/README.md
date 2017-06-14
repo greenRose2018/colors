@@ -1,15 +1,14 @@
 # Devcamp Portfolio Application
 
-> this is a Ruby on Rails 5 application that allows users to create their own protfolios
-### Fearures 
+> This is a Ruby on Rails 5 application that allows users to create their own protfolios
+### Features 
 
-- real time chat engine for comments
+- Real time chat engine for comments
 - Blog 
 - Portfolio
 - Drag and drop interface
-- 
 
-### code Example
+### Code Example
 
 ```ruby
 def my_great_method
