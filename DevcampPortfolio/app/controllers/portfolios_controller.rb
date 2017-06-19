@@ -20,9 +20,11 @@ class PortfoliosController < ApplicationController
       end
     end
   end
+  
   def edit
     @portfolio_item = Portfolio.find(params[:id])
   end
+  
   def update
     @portfolio_item = Portfolio.find(params[:id])
     respond_to do |format|
@@ -35,9 +37,11 @@ class PortfoliosController < ApplicationController
       end
     end
   end
+  
   def show
     @portfolio_item = Portfolio.find(params[:id])
   end
+  
   def destroy
     #Perform the lookup
     @portfolio_item = Portfolio.find(params[:id])
