@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/greenRose2018/morales_view_tool
+  revision: 9338344923a034c76187ce5ef6cf30b38531c320
+  specs:
+    morales_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  morales_view_tool!
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)

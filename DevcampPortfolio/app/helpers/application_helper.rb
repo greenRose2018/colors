@@ -15,4 +15,9 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+    
+  def copyright_generator
+    MoralesViewTool::Renderer.copyright 'Brittney Morales', 'All rights reserved'
+  end
 end
