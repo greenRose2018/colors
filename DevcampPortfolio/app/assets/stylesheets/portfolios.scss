@@ -2,6 +2,8 @@
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  //text-align: center;
+  
 }
 
 .navbar {
@@ -24,7 +26,9 @@ body {
 }
 
 .jumbotron .container {
+  
   max-width: 40rem;
+  
 }
 
 .album {
@@ -58,4 +62,11 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+/*Custom styles*/
+//li {
+//  list-style-type: none;
+//}
 
+.portfolio-form {
+  padding: 90px;
+}
